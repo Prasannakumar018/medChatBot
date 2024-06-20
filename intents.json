@@ -1,0 +1,174 @@
+{"intents":
+[
+  {
+    "tag":"common cold symptoms",
+    "patterns": ["Runny or stuffy nose","cold",
+    "Sore throat",
+    "Cough",
+    "Low-grade fever",
+    "Generally feeling unwell (malaise)"],
+    "responses":["It seems that you are suffering from common cold"]
+   },
+   {
+    "tag":"fever symptoms",
+    "patterns":["Sweating",
+    "Dehydration",
+    "General weakness"],
+    "responses":["It seems that you are suffering from fever"]
+   },
+   {
+    "tag":"Diabetes symptoms",
+    "patterns":["increased hunger",
+    "blurry vision",
+    "extreme fatigue"],
+    "responses":["It seems that you are suffering from Diabetes"]
+   },
+   {
+    "tag":"Depression symptoms",
+    "patterns":["Hopeless outlook",
+    "Lost interest",
+    "change in weight",
+    "Looking at death"],
+    "responses":["It seem that you are suffering from depression"]
+   },
+   {
+    "tag":"Asthma symptoms",
+    "patterns":["coughing",
+    "tightness in the chest",
+    "shortness of breath",
+    "difficulty talking",
+    "panic",
+    "fatigue"],
+    "responses":["It seem that you are suffering from Asthma"]
+   },
+   {
+    "tag":"common cold prevention",
+    "patterns":["What medicines can I buy to help me with my common cold?","tell me some prevention method from common cold","What should I eat or drink if i am suffering from common cold?","How can I keep from getting a cold or the flu?","medicine for cold"],
+    "responses":["medicines you can consume : Dextromethorphan,Decongestant,Diphenhydramine,Crocin Cold & Flu Max, preventions that you must follow :Wash your hands,Avoid touching your face,Clean frequently used surfaces,Use hand sanitizers,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup"]
+   },
+   {
+    "tag":"fever prevention",
+    "patterns":["What medicines can I buy to help me with my fever?","tell me some prevention method from fever","What should I eat or drink if i am suffering from fever?","How can I keep from getting a fever?","medicine for fever"],
+    "responses":["medicines you can consume : acetaminophen ,ibuprofen,aspirin,Crocin Cold & Flu Max, prevention that you must follow :Wash your hands,Cover your mouth when you cough and your nose when you sneeze,Clean frequently used surfaces,Avoid sharing cups, glasses, and eating utensils with other people.,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup"]
+   },
+   {
+    "tag":"diabetes prevention",
+    "patterns":["What medicines can I buy to help me with my diabetes?","tell me some prevention method from diabetes","What should I eat or drink if i am suffering from diabetes?","How can I keep from getting diabetes?","medicine for diabetes"],
+    "responses":["medicines you can consume : Insulin ,Amylinomimetic drug,Dipeptidyl peptidase-4 (DPP-4) inhibitor, prevention that you must follow :Cut Sugar and Refined Carbs From Your Diet,Work Out Regularly,Drink Water as Your Primary Beverage,Lose Weight If You’re Overweight or Obese,Quit Smoking, Follow a Very-Low-Carb Diet,Watch Portion Sizes,SUGGESTED FOODS ARE:Leafy greens,Avocados,Eggs"]
+   },
+   {
+    "tag":"depression prevention",
+    "patterns":["What medicines can I buy to help me with my depression?","tell me some prevention method from depression","What should I eat or drink if i am suffering from depression?","How can I keep from getting depression?","medicine for depression"],
+    "responses":["medicines you can consume :  brexpiprazole, quetiapine,olanzapine, prevention that you must follow :Exercise regularly,Cut back on social media time,Drink Water as Your Primary Beverage,Build strong relationships,Minimize your daily choices, Follow a Very-Low-Carb Diet,SUGGESTED FOODS ARE:Get Enough Vitamin D,Include Omega-3 Fatty Acids,Beans and legumes"]
+   },
+   {
+    "tag":"asthma prevention",
+    "patterns":["What medicines can I buy to help me with my asthma?","tell me some prevention method from asthma","What should I eat or drink if i am suffering from asthma?","How can I keep from getting asthma?","medicine for asthma"],
+    "responses":["medicines you can consume : epinephrine,anticholinergic,Proair HFA, prevention that you must follow : Identify Asthma Triggers, Stay Away From Allergens,Avoid Smoke of Any Type,SUGGESTED FOODS ARE:carrots,juice,eggs,broccoli,cantaloupe,milk"]
+   },
+   {
+    "tag":"Consultation",
+    "patterns": ["who should i contact for consultation?","is there any doctor available?","can you give me some suggestions for doctor consultations?","can you set up a meeting with a doctor for consultation?","is there any doctor available for consultation","who can i consult"],
+    "responses":["You can contact various doctors here for any kind of consultation: 1. https://www.1mg.com/online-doctor-consultation, 2. https://www.tatahealth.com/online-doctor-consultation/general-physician, 3. https://www.doconline.com/, or you can pay a visit to your local area doctor or family doctor."]
+   },
+   {"tag": "greeting",
+"patterns": ["Hi", "Hey", "Is anyone there?","Hi there", "Hello", "Hey there", "Howdy", "Hola", "Bonjour", "Konnichiwa", "Guten tag", "Ola"],
+"responses": ["Hello there. Tell me how are you feeling today?", "Hi there. What brings you here today?", "Hi there. How are you feeling today?", "Great to see you. How do you feel currently?", "Hello there. Glad to see you're back. What's going on in your world right now?"]
+},
+  {"tag": "morning",
+  "patterns": ["Good morning"],
+  "responses": ["Good morning. I hope you had a good night's sleep. How are you feeling today? "]
+},
+{"tag": "afternoon",
+  "patterns": ["Good afternoon"],
+  "responses": ["Good afternoon. How is your day going?"]
+},
+{"tag": "evening",
+  "patterns": ["Good evening"],
+  "responses": ["Good evening. How has your day been?"]
+},
+{"tag": "night",
+  "patterns": ["Good night"],
+  "responses": ["Good night. Get some proper sleep", "Good night. Sweet dreams."]
+},
+{"tag": "goodbye",
+"patterns": ["Bye",  "Goodbye", "Au revoir", "Sayonara", "ok bye", "Bye then"],
+"responses": ["See you later.", "Have a nice day.", "Bye! Come back again.", "I'll see you soon."]
+},
+{"tag": "thanks",
+"patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help", "Than you very much"],
+"responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+},
+
+{"tag": "about",
+"patterns": ["Who are you?", "What are you?", "Who you are?", "Tell me more about yourself.", "What is your name?", "What should I call you?", "What's your name?", "Tell me about yourself" ],
+"responses": ["I'm Pandora, your Personal Therapeutic AI Assistant. How are you feeling today", "I'm Pandora, a Therapeutic AI Assitant designed to assist you. Tell me about yourself.", "I'm Pandora. I am a conversational agent designed to mimic a therapist. So how are you feeling today?", "You can call me Pandora.", "I'm Pandora!", "Call me Pandora"]
+},
+
+{"tag": "name",
+  "patterns": ["My name is ", "I am name.", "I go by "],
+  "responses": ["Oh nice to meet you. Tell me how was your week?", "Nice to meet you. So tell me. How do you feel today?", "That's a great name. Tell me more about yourself."]
+},
+{"tag": "casual",
+  "patterns": ["Oh I see.","ok", "okay", "nice", "Whatever", "K", "Fine", "yeah", "yes", "not really"],
+  "responses": ["Let's discuss further why you're feeling this way.", "How were you feeling last week?", "I'm listening. Please go on.", "Tell me more", "Can you elaborate on that?", "Come Come elucidate your thoughts"]
+},
+{"tag": "anxious",
+  "patterns": ["I feel so anxious.", "I'm so anxious because of "],
+  "responses": ["Don't be hard on yourself. What's the reason behind this?", "Can you tell me more about this feeling?", "I understand that it can be scary. Tell me more about it.", "Don't let the little worries bring you down. What's the worse that can happen?"]
+},
+{"tag": "something-else",
+  "patterns": ["I want to talk about something else", "Let's talk about something else.", "Can we not talk about this?", "I don't want to talk about this."],
+  "responses": ["Okay sure. What do you want to talk about?", "Alright no problem. Is there something you want to talk about?", "Is there something else that you want to talk about?"]
+},
+{"tag": "pandora-useful",
+  "patterns": ["thank you very much again. i'll continue practicing meditation and focus on what i can control."],
+  "responses": ["I'm glad you found this useful. Is there something else I can help you with?"]
+},
+{"tag": "user-advice",
+  "patterns": ["I want some advice.", "I need some advice.", "I need advice on something"],
+  "responses": ["Sure. What can I do to help?", "Okay what do you need advice on?"]
+},
+{
+  "tag":"no",
+  "patterns":["no","thats all"],
+  "responses":["*calculating response*"]
+},
+{
+"tag": "symptom",
+"patterns": [
+  "back pain","constipation","abdominal pain","diarrhoea","mild fever","yellow urine","yellowing of eyes","acute liver failure",
+  "fluid overload","swelling of stomach","swelled lymph nodes","blurred and distorted vision","phlegm","throat irritation",
+  "redness of eyes","sinus pressure","runny nose","congestion","chest pain","weakness in limbs","fast heart rate",
+  "pain during bowel movements","pain in anal region","bloody stool","irritation in anus","neck pain","dizziness","cramps",
+  "bruising","obesity"
+],
+"responses": ["mention no if you don't have any"]
+},
+{
+  "tag": "symptoms",
+  "patterns": [
+    "swollen legs","swollen blood vessels","puffy face and eyes","enlarged thyroid","brittle nails","vomiting",
+    "swollen extremeties","excessive hunger","extra marital contacts","drying and tingling lips","slurred speech","knee pain",
+    "hip joint pain","muscle weakness","stiff neck","swelling joints","movement stiffness","spinning movements","loss of balance",
+    "unsteadiness","weakness of one body side","loss of smell","bladder discomfort","foul smell of urine","continuous feel of urine",
+    "passage of gases","internal itching","depression","irritability","muscle pain","altered sensorium","red spots over body","belly pain",
+    "abnormal menstruation","watering from eyes","increased appetite","polyuria","mucoid sputum","rusty sputum","lack of concentration",
+    "visual disturbances","receiving blood transfusion","receiving unsterile injections","coma","stomach bleeding","distention of abdomen",
+    "history of alcohol consumption","fluid overload","blood in sputum","prominent veins on calf","palpitations","painful walking",
+    "pus filled pimples","blackheads","scurring","skin peeling","silver like dusting","small dents in nails","inflammatory nails","blister",
+    "red sore around nose","yellow crust ooze"
+  ],
+  "responses": ["mention no if you don't have any"]
+  },
+  {
+    "tag":"clear",
+    "patterns":["clear symptoms"],
+    "responses":["**clearing response**"]
+  },
+  {
+    "tag":"fine",
+    "patterns":["i'am fine","i'm fine","fine"],
+    "responses":["good to here this from you how can i help you?"]
+  }
+]}
